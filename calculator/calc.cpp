@@ -59,7 +59,7 @@ int main(int argc, char* argv[]) {
         return 1;
     }
     if (operation == "arif") {
-        cout << "Среднее арифмитическое: " << arif(numbers) << endl;
+        cout << "Среднее арифметическое: " << arif(numbers) << endl;
     } else if (operation == "median") {
         cout << "Медиана: " << median(numbers) << endl;
     } else {
